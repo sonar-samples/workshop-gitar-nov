@@ -12,7 +12,7 @@ class Principal:
     is_staff: bool = False
 
 
-# Development stand-in for the identity service: bearer token -> principal.
+# Development stand-in for the identity service: bearer token -> principal. test
 DEV_TOKENS = {
     "tok_alice": Principal("alice@example.com"),
     "tok_bob": Principal("bob@example.com"),
